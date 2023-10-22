@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2e457f0dd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script/script.js"></script>
+    <title>Starbucks</title>
+  </head>
+
+  <body onload="displayGreeting();">
+    <header>
+      <a href="index.html" class="logo"
+        ><img src="images/logo.png" alt="logo" width="50px" height="50px"
+      /></a>
+      <ul class="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="main">
+        <a href="signin.html" class="user"
+          ><i class="fa-solid fa-user"></i>Sign In</a
+        >
+        <a href="register.html" id="rgs">Register</a>
+        <div class="fa-solid fa-bars" id="menu-icon"></div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="left-hero">
+        <p class="txt_upper" id="greeting"></p>
+        <h2 class="txt_under">The home of great coffee</h2>
+        <p class="desc">Experience the taste of our crafted perfection.</p>
+        <div class="btndiv">
+          <button class="btn" type="button" id="scroll-button">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="right-hero">
+        <img id="hero_img" src="images/img1.png" alt="right-hero" />
+      </div>
+    </section>
+    <section class="featured_products">
+      <h1>Explore our featured Products</h1>
+      <div class="card-container">
+        <div class="card">
+          <a href="https://www.starbucks.com/menu/product/2123758/iced"
+            ><img src="images/Macadamia.jpg" alt="Starbucks Coffee"
+          /></a>
+          <div class="card-content">
+            <h3>Macadamia</h3>
+            <p>
+              Smooth and lush, the new White Chocolate Macadamia Cream Cold Brew
+              is topped with toasted cookie crumbles.
+            </p>
+            <a
+              href="https://www.starbucks.com/menu/product/2123758/iced"
+              class="btn"
+              >Order now</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.starbucks.com/menu/product/2123759/iced"
+            ><img src="images/javaMint.jpg" alt="Starbucks Coffee"
+          /></a>
+          <div class="card-content">
+            <h3>Java Mint Frappuccino</h3>
+            <p>
+              Coffee, chocolate and mint flavors unite in the new Chocolate Java
+              Mint Frappuccino® blended beverage.
+            </p>
+            <a
+              href="https://www.starbucks.com/menu/product/2123759/iced"
+              class="btn"
+              >Order now</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.starbucks.com/menu/product/2123676/iced"
+            ><img src="images/pineapple.jpg" alt="Starbucks Coffee"
+          /></a>
+          <div class="card-content">
+            <h3>Pineapple Passionfruit Lemonade</h3>
+            <p>
+              Tropical flavors of pineapple and passionfruit shaken with diced
+              pineapple and refreshing lemonade.
+            </p>
+            <a
+              href="https://www.starbucks.com/menu/product/2123676/iced"
+              class="btn"
+              >Order now</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.starbucks.com/menu/product/2122726/iced"
+            ><img src="images/mangoDr.jpg" alt="Starbucks Coffee"
+          /></a>
+          <div class="card-content">
+            <h3>Mango Dragonfruit Lemonade</h3>
+            <p>
+              Hand-shaken mango and dragonfruit flavors with tangy lemonade and
+              real diced fruit.
+            </p>
+            <a
+              href="https://www.starbucks.com/menu/product/2122726/iced"
+              class="btn"
+              >Order now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us" id="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="images/AboutUs1.jpg" alt="About Us" id="aboutid" />
+        </div>
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+            At Starbucks, we are passionate about crafting the perfect cup of
+            coffee and providing a unique experience for our customers. Since
+            our humble beginnings in 1971, we have grown to become one of the
+            world's most recognizable and beloved coffee brands.
+          </p>
+          <p>
+            Our commitment to ethically sourced coffee beans and sustainable
+            practices sets us apart. We work directly with farmers in
+            coffee-growing regions, supporting their communities and ensuring
+            the highest quality beans make it into your cup.
+          </p>
+          <p>
+            But Starbucks is more than just coffee. We are a place for
+            connection and community. Our stores are gathering spaces where
+            people come together to relax, work, or simply enjoy a moment of
+            indulgence.
+          </p>
+          <p>
+            Join us on a journey of flavor exploration and exceptional service.
+            We strive to create a warm and inviting environment where everyone
+            feels welcome. Whether it's a classic latte, a seasonal favorite, or
+            a handcrafted tea, there's something for everyone at Starbucks.
+          </p>
+          <a href="https://www.starbucks.com/about-us/" class="btn2"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/Starbucks/"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/starbucks/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/starbucks/"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.starbucks.com/terms/starbucks-terms-of-use/"
+          >Terms of Service</a
+        >
+        <a href="https://www.starbucks.com/terms/privacy-policy/"
+          >Privacy Policy</a
+        >
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <p>
+        &copy; 2023 Starbucks Coffe Company. All rights reserved. Designed by
+        <span>Yazan Al Rifaee</span>.
+      </p>
+    </footer>
+    <button onclick="scrollToTop()" id="back-to-top-btn" title="Go to top">
+      Back to Top
+    </button>
+  </body>
+</html>
